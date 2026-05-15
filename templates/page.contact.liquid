@@ -1,0 +1,132 @@
+<!-- CONTACT PAGE -->
+
+<div class="page-header">
+  <span class="eyebrow page-header__eyebrow">Let's Connect</span>
+  <h1 class="page-header__title">Contact Us</h1>
+  <p class="page-header__desc">Have a project in mind, a question about our services, or just want to say hello? We'd love to hear from you.</p>
+</div>
+
+<section class="section section--lg">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <span class="eyebrow">Get in Touch</span>
+        <h2>We're Here for You</h2>
+        <div class="divider divider--left"></div>
+        <p>Whether you're ready to start a project or just exploring your options, reach out — no pressure, no commitment. We respond to all inquiries within 1 business day.</p>
+
+        <div class="contact-detail" style="margin-top:2rem;">
+          <span style="font-size:1.25rem;">✉️</span>
+          <div>
+            <strong>Email</strong><br>
+            <a href="mailto:hello@ingoodcompanycreative.com" style="color:var(--clr-green);">hello@ingoodcompanycreative.com</a>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span style="font-size:1.25rem;">📱</span>
+          <div>
+            <strong>Follow Along</strong><br>
+            <span style="font-size:0.9rem;">Find us on Instagram, Facebook, and Pinterest</span>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span style="font-size:1.25rem;">🕐</span>
+          <div>
+            <strong>Response Time</strong><br>
+            <span style="font-size:0.9rem;">Within 1 business day</span>
+          </div>
+        </div>
+
+        <div style="margin-top:2rem; padding:1.5rem; background:var(--clr-cream); border-radius:var(--radius-md); border-left:3px solid var(--clr-green);">
+          <strong style="font-size:0.85rem; display:block; margin-bottom:0.5rem; color:var(--clr-green);">Free Consultation</strong>
+          <p style="font-size:0.9rem; color:var(--clr-brown); margin:0;">All new projects start with a free 30-minute discovery call. No strings attached — just a conversation about your goals.</p>
+        </div>
+
+        <div style="margin-top:2rem;">
+          <strong style="font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; display:block; margin-bottom:0.75rem; color:var(--clr-brown);">Common Questions:</strong>
+          <ul style="list-style:none; padding:0;">
+            <li style="padding:0.6rem 0; border-bottom:1px solid var(--clr-border); font-size:0.9rem; color:var(--clr-brown-light);">→ Website design & development</li>
+            <li style="padding:0.6rem 0; border-bottom:1px solid var(--clr-border); font-size:0.9rem; color:var(--clr-brown-light);">→ Social media management packages</li>
+            <li style="padding:0.6rem 0; border-bottom:1px solid var(--clr-border); font-size:0.9rem; color:var(--clr-brown-light);">→ Custom print projects</li>
+            <li style="padding:0.6rem 0; border-bottom:1px solid var(--clr-border); font-size:0.9rem; color:var(--clr-brown-light);">→ Handcrafted & laser engraved items</li>
+            <li style="padding:0.6rem 0; font-size:0.9rem; color:var(--clr-brown-light);">→ Wholesale brand inquiries</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h3 style="margin-bottom:1.5rem; font-family:var(--font-heading);">Send a Message</h3>
+        <form id="contact-form" action="/contact#contact-form" method="post" accept-charset="UTF-8">
+          <input type="hidden" name="form_type" value="contact">
+          <input type="hidden" name="utf8" value="✓">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">First Name</label>
+              <input type="text" id="contact-name" name="contact[first_name]" placeholder="Jane" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-last-name">Last Name</label>
+              <input type="text" id="contact-last-name" name="contact[last_name]" placeholder="Smith">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" name="contact[email]" placeholder="jane@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-phone">Phone (optional)</label>
+            <input type="tel" id="contact-phone" name="contact[phone]" placeholder="(555) 000-0000">
+          </div>
+
+          <div class="form-group">
+            <label for="contact-service">What Can We Help With?</label>
+            <select id="contact-service" name="contact[service]">
+              <option value="">Select a service...</option>
+              <option value="website">Website Design</option>
+              <option value="social-media">Social Media Management</option>
+              <option value="print">Printed Products</option>
+              <option value="digital">Digital Products</option>
+              <option value="handcrafted">Handcrafted / Custom Items</option>
+              <option value="brands">Brand Partnership / Wholesale</option>
+              <option value="other">Something Else</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-budget">Approximate Budget (optional)</label>
+            <select id="contact-budget" name="contact[budget]">
+              <option value="">Select a range...</option>
+              <option value="under-250">Under $250</option>
+              <option value="250-500">$250 – $500</option>
+              <option value="500-1000">$500 – $1,000</option>
+              <option value="1000-2500">$1,000 – $2,500</option>
+              <option value="2500-plus">$2,500+</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Tell Us About Your Project</label>
+            <textarea id="contact-message" name="contact[body]" placeholder="Tell us what you're working on, your timeline, and anything else that would help us understand your needs..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center;">
+            Send Message
+          </button>
+
+          <p style="font-size:0.8rem; color:var(--clr-brown-light); text-align:center; margin-top:1rem;">
+            We read every message and respond within 1 business day.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>

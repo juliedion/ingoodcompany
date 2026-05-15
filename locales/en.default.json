@@ -1,0 +1,21 @@
+{
+  "general": {
+    "currency_symbol": "$"
+  },
+  "navigation": {
+    "home": "Home",
+    "websites": "Websites",
+    "social_media": "Social Media",
+    "printed_products": "Printed Products",
+    "digital_products": "Digital Products",
+    "handcrafted": "Handcrafted",
+    "brands": "Our Brands",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "products": {
+    "add_to_cart": "Add to Cart",
+    "sold_out": "Sold Out",
+    "request_quote": "Request a Quote"
+  }
+}

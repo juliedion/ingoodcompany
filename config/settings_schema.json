@@ -1,0 +1,91 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "In Good Company",
+    "theme_version": "1.0.0",
+    "theme_author": "In Good Company",
+    "theme_documentation_url": "https://www.getingoodcompany.com/",
+    "theme_support_url": "https://www.getingoodcompany.com/"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Primary (Dark)",
+        "default": "#1C1812"
+      },
+      {
+        "type": "color",
+        "id": "color_accent",
+        "label": "Accent (Green)",
+        "default": "#3A5040"
+      },
+      {
+        "type": "color",
+        "id": "color_gold",
+        "label": "Highlight (Gold)",
+        "default": "#B8975A"
+      }
+    ]
+  },
+  {
+    "name": "Announcement Bar",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_announcement",
+        "label": "Show Announcement Bar",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "announcement_text",
+        "label": "Announcement Text",
+        "default": "Creative services for brands that mean business · Schedule a free consultation"
+      },
+      {
+        "type": "url",
+        "id": "announcement_url",
+        "label": "Announcement Link"
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
+    "settings": [
+      {
+        "type": "text",
+        "id": "social_instagram",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "text",
+        "id": "social_facebook",
+        "label": "Facebook URL"
+      },
+      {
+        "type": "text",
+        "id": "social_pinterest",
+        "label": "Pinterest URL"
+      },
+      {
+        "type": "text",
+        "id": "social_tiktok",
+        "label": "TikTok URL"
+      }
+    ]
+  },
+  {
+    "name": "Footer",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "footer_about",
+        "label": "Footer About Text",
+        "default": "Creative services, digital products, and handcrafted goods — all in good company."
+      }
+    ]
+  }
+]

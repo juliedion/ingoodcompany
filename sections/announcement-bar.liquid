@@ -1,0 +1,7 @@
+<div class="announcement-bar">
+  {%- if settings.announcement_url != blank -%}
+    <a href="{{ settings.announcement_url }}">{{ settings.announcement_text }}</a>
+  {%- else -%}
+    {{ settings.announcement_text }}
+  {%- endif -%}
+</div>

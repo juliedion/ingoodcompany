@@ -1,0 +1,168 @@
+<!-- SOCIAL MEDIA PAGE -->
+
+<div class="page-header">
+  <span class="eyebrow page-header__eyebrow">Creative Services</span>
+  <h1 class="page-header__title">Social Media Management</h1>
+  <p class="page-header__desc">Consistent, strategic, and beautifully on-brand social media content — so you can focus on running your business.</p>
+</div>
+
+<!-- What We Do -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="section__header">
+      <span class="eyebrow">What's Included</span>
+      <h2>More Than Just Posts</h2>
+      <p>We handle the strategy, content creation, scheduling, and community engagement — end to end.</p>
+    </div>
+    <div class="grid grid--3">
+      <div class="service-card">
+        <div class="service-card__icon">🎯</div>
+        <div class="service-card__title">Content Strategy</div>
+        <p class="service-card__desc">A custom content calendar built around your brand, audience, and goals. No guessing, just intention.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">🖼️</div>
+        <div class="service-card__title">Graphic Design</div>
+        <p class="service-card__desc">On-brand graphics, reels covers, story templates, and carousels designed to stop the scroll.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">✍️</div>
+        <div class="service-card__title">Copywriting</div>
+        <p class="service-card__desc">Captions that sound like you — engaging, authentic, and crafted with the right call-to-action.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">📅</div>
+        <div class="service-card__title">Scheduling</div>
+        <p class="service-card__desc">We schedule posts for optimal times on Instagram, Facebook, Pinterest, and TikTok.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">💬</div>
+        <div class="service-card__title">Community Management</div>
+        <p class="service-card__desc">Responding to comments, DMs, and mentions to keep your audience engaged and feeling seen.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">📊</div>
+        <div class="service-card__title">Monthly Reporting</div>
+        <p class="service-card__desc">Clear, easy-to-understand analytics reports showing what's working and where to grow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Platforms -->
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <span class="eyebrow">Platforms We Manage</span>
+      <h2>We Speak Every Platform</h2>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
+      {%- assign platforms = "📸 Instagram,👥 Facebook,📌 Pinterest,🎵 TikTok,🐦 Twitter / X,💼 LinkedIn" | split: ',' -%}
+      {%- for platform in platforms -%}
+        <div style="background:var(--clr-cream); border:1px solid var(--clr-border); border-radius:var(--radius-md); padding:1rem 1.75rem; font-family:var(--font-heading); font-size:1.05rem; color:var(--clr-dark);">{{ platform }}</div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Tiers -->
+<section class="section section--lg section--alt">
+  <div class="container">
+    <div class="section__header">
+      <span class="eyebrow">Subscription Plans</span>
+      <h2>Consistent Content, Month After Month</h2>
+      <p>Flat-rate monthly subscriptions. Cancel anytime. No long contracts.</p>
+    </div>
+
+    <div class="tiers">
+
+      <div class="tier-card">
+        <div class="tier-card__name">Essentials</div>
+        <div class="tier-card__price"><sup>$</sup>299</div>
+        <div class="tier-card__period">per month</div>
+        <ul class="tier-card__features">
+          <li>1 platform</li>
+          <li>8 posts per month</li>
+          <li>Custom graphics</li>
+          <li>Caption copywriting</li>
+          <li>Scheduling & publishing</li>
+          <li>Monthly performance report</li>
+        </ul>
+        <a href="/pages/contact" class="btn btn--outline" style="text-align:center; justify-content:center;">Get Started</a>
+      </div>
+
+      <div class="tier-card tier-card--featured">
+        <div class="tier-card__badge">Best Value</div>
+        <div class="tier-card__name">Growth</div>
+        <div class="tier-card__price"><sup>$</sup>549</div>
+        <div class="tier-card__period">per month</div>
+        <ul class="tier-card__features">
+          <li>2 platforms</li>
+          <li>16 posts per month</li>
+          <li>Stories & reels covers</li>
+          <li>Custom graphics + templates</li>
+          <li>Caption copywriting</li>
+          <li>Hashtag research</li>
+          <li>Scheduling & publishing</li>
+          <li>Comment monitoring</li>
+          <li>Monthly strategy call</li>
+          <li>Monthly report</li>
+        </ul>
+        <a href="/pages/contact" class="btn btn--gold" style="text-align:center; justify-content:center;">Get Started</a>
+      </div>
+
+      <div class="tier-card">
+        <div class="tier-card__name">Full Presence</div>
+        <div class="tier-card__price"><sup>$</sup>899</div>
+        <div class="tier-card__period">per month</div>
+        <ul class="tier-card__features">
+          <li>3+ platforms</li>
+          <li>24+ posts per month</li>
+          <li>Full content creation</li>
+          <li>Stories, reels, carousels</li>
+          <li>Community management</li>
+          <li>DM & comment responses</li>
+          <li>Content calendar access</li>
+          <li>Bi-weekly strategy calls</li>
+          <li>Detailed monthly report</li>
+          <li>Priority support</li>
+        </ul>
+        <a href="/pages/contact" class="btn btn--outline" style="text-align:center; justify-content:center;">Get Started</a>
+      </div>
+
+    </div>
+
+    <p style="text-align:center; color:var(--clr-brown-light); margin-top:2rem; font-size:0.9rem;">
+      All plans include a free onboarding call. <a href="/pages/contact" style="color:var(--clr-green); font-weight:600;">Let's find your fit →</a>
+    </p>
+  </div>
+</section>
+
+<!-- Add-Ons -->
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <span class="eyebrow">Add-On Services</span>
+      <h2>Enhance Any Plan</h2>
+    </div>
+    <div class="grid grid--3">
+      {%- assign addons = "Profile & Bio Optimization|One-time audit and refresh of your social profiles. — $149,Content Template Pack|10 custom branded Canva templates for your team to use. — $199/pack,Reel / Video Editing|We edit raw footage into polished, engaging short-form videos. — $75/video,Ad Campaign Setup|Facebook & Instagram ad setup including targeting and creative. — Starting at $349,Giveaway Campaign|Full giveaway strategy, creative, rules, and management. — $249,Brand Voice Guide|Document defining your tone, language, and posting style. — $199" | split: ',' -%}
+      {%- for addon in addons -%}
+        {%- assign parts = addon | split: '|' -%}
+        <div class="service-card">
+          <div class="service-card__title">{{ parts[0] }}</div>
+          <p class="service-card__desc">{{ parts[1] }}</p>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--green" style="text-align:center;">
+  <div class="container--narrow">
+    <h2 style="color:#fff; margin-bottom:1rem;">Ready to Show Up Consistently?</h2>
+    <p style="color:var(--clr-sand); margin-bottom:2rem;">Let's get your brand the social presence it deserves. Start with a free audit.</p>
+    <a href="/pages/contact" class="btn btn--outline-light">Book a Free Social Audit</a>
+  </div>
+</section>
