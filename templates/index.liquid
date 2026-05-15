@@ -4,39 +4,9 @@
 <div class="hero-ed">
   <div class="hero-ed__inner">
 
-    <!-- TOP LEFT: headline + text -->
-    <div class="hero-ed__text">
-      <span class="eyebrow hero-ed__eyebrow">Creative Studio + Boutique Agency</span>
-      <h1 class="hero-ed__title">Design That Works.<br>Made With Heart.<svg class="hero-ed__heart" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#D4778A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></h1>
-      <div class="hero-ed__underline">
-        <svg viewBox="0 0 300 14" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4 10 C60 3 140 13 200 8 C240 4 270 10 296 7" stroke="#D4778A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-        </svg>
-      </div>
-      <p class="hero-ed__desc">Websites, social media, print, digital, and handcrafted goods for brands that want to stand out and stay rooted.</p>
-    </div>
-
-    <!-- TOP RIGHT: Print & Digital — 2ND LARGEST -->
-    <div class="hero-ed__lifestyle">
-      <img src="{{ 'in-good-company_0004_Layer-5.png' | asset_url }}" alt="Design that leaves a lasting impression — print and digital products" width="308" height="376" loading="eager">
-      <div class="hero-ed__overlay">
-        <div class="hero-ed__overlay-label">Service</div>
-        <div class="hero-ed__overlay-title">Print & Digital</div>
-        <div class="hero-ed__overlay-desc">Banners, flyers, business cards, templates, and digital goods — beautiful on every medium.</div>
-        <div class="hero-ed__overlay-actions">
-          <a href="/pages/printed-products" class="hero-ed__overlay-btn">View Services</a>
-          <a href="/pages/digital-products" class="hero-ed__overlay-arrow" aria-label="Digital products">
-            <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="2" y1="13" x2="13" y2="2"/><polyline points="5 2 13 2 13 10"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <!-- BOTTOM LEFT: Website Design — LARGEST -->
+    <!-- LEFT: Website Design — spans all rows -->
     <div class="hero-ed__featured">
-      <img src="{{ 'in-good-company_0000_Layer-1.png' | asset_url }}" alt="Website design by In Good Company" width="821" height="583" loading="lazy">
+      <img src="{{ 'in-good-company_0000_Layer-1.png' | asset_url }}" alt="Website design by In Good Company" width="821" height="583" loading="eager">
       <div class="hero-ed__overlay">
         <div class="hero-ed__overlay-label">Service</div>
         <div class="hero-ed__overlay-title">Website Design</div>
@@ -52,7 +22,43 @@
       </div>
     </div>
 
-    <!-- BOTTOM RIGHT: Made with Love — SMALLEST -->
+    <!-- TOP RIGHT: headline + text (col 2–3, row 1) -->
+    <div class="hero-ed__text">
+      <span class="eyebrow hero-ed__eyebrow">Creative Studio + Boutique Agency</span>
+      <h1 class="hero-ed__title">Design That Works.<br>Made With Heart.<svg class="hero-ed__heart" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#D4778A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></h1>
+      <div class="hero-ed__underline">
+        <svg viewBox="0 0 300 14" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 10 C60 3 140 13 200 8 C240 4 270 10 296 7" stroke="#D4778A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        </svg>
+      </div>
+      <p class="hero-ed__desc">Websites, social media, print, digital, and handcrafted goods for brands that want to stand out and stay rooted.</p>
+    </div>
+
+    <!-- MIDDLE RIGHT: Printed Products (col 2, row 2) -->
+    <div class="hero-ed__print">
+      <img src="{{ 'in-good-company_0004_Layer-5.png' | asset_url }}" alt="Design That Leaves A Lasting Impression — printed products" width="308" height="376" loading="lazy">
+      <div class="hero-ed__overlay hero-ed__overlay--sm">
+        <div class="hero-ed__overlay-label">Service</div>
+        <div class="hero-ed__overlay-title">Printed Products</div>
+        <div class="hero-ed__overlay-actions">
+          <a href="/pages/printed-products" class="hero-ed__overlay-btn">View Services</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- MIDDLE RIGHT: Digital Products (col 3, row 2) -->
+    <div class="hero-ed__digital">
+      <img src="{{ 'in-good-company_0003_Layer-4.png' | asset_url }}" alt="You've Got This — digital products" width="302" height="375" loading="lazy">
+      <div class="hero-ed__overlay hero-ed__overlay--sm">
+        <div class="hero-ed__overlay-label">Service</div>
+        <div class="hero-ed__overlay-title">Digital Products</div>
+        <div class="hero-ed__overlay-actions">
+          <a href="/pages/digital-products" class="hero-ed__overlay-btn">View Services</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM RIGHT: Made with Love (col 2–3, row 3) -->
     <div class="hero-ed__craft">
       <img src="{{ 'in-good-company_0001_Layer-2.png' | asset_url }}" alt="Handcrafted promo items made with love" width="664" height="582" loading="lazy">
       <div class="hero-ed__overlay hero-ed__overlay--sm">
